@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fqy-6x-T54">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FinCube Card Reader-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="CardTabViewController" id="BYZ-38-t0r" userLabel="FinCube Card Reader" customClass="ViewController" customModule="OCRSwift" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vR7-4w-coZ">
+                                <rect key="frame" x="0.0" y="558" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start Card Reader"/>
+                                <connections>
+                                    <segue destination="b5w-Eq-jnK" kind="show" id="Fn4-x7-qZY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="v1m-0y-LWh"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="FinCube Card Reader" largeTitleDisplayMode="never" id="d3o-ju-fRO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292" y="-743"/>
+        </scene>
+        <!--Fin Cube Card Reader View Controller-->
+        <scene sceneID="GYV-9y-3Tg">
+            <objects>
+                <viewController id="b5w-Eq-jnK" customClass="FinCubeCardReaderViewController" customModule="OCRSwift" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iLY-5d-sMx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Z3Z-Se-Gai"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zYb-yT-evz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="65F-Av-Vmw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3524" y="-743"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ig9-oh-UKZ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Fqy-6x-T54" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kPE-Rf-mCv">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OSW-5z-Zaj" kind="relationship" relationship="viewControllers" id="LoU-Ib-oSr"/>
+                        <segue destination="OlZ-gB-yeV" kind="relationship" relationship="viewControllers" id="gZV-zT-iJ9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLq-h8-4hH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-452" y="344"/>
+        </scene>
+        <!--Credit Card-->
+        <scene sceneID="6Bb-DH-nRl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OSW-5z-Zaj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Credit Card" id="UOe-wd-aFG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UDN-CR-JUa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UKe-Vn-aZx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDG-vQ-tII" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="-743"/>
+        </scene>
+        <!--Kor ID Card-->
+        <scene sceneID="aRe-q9-Ivj">
+            <objects>
+                <navigationController id="OlZ-gB-yeV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Kor ID Card" id="xkH-ww-B7O"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DDp-zG-twg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qhV-1P-YiD" kind="relationship" relationship="rootViewController" id="QXs-vt-O6O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4hO-4x-puN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="-63"/>
+        </scene>
+        <!--FinCube ID Reader-->
+        <scene sceneID="SIM-oL-LSD">
+            <objects>
+                <viewController storyboardIdentifier="KorIDTabViewController" id="qhV-1P-YiD" userLabel="FinCube ID Reader" customClass="ViewController" customModule="OCRSwift" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rNz-Ms-fHR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9X-AX-k33" userLabel="Start KorID Reder">
+                                <rect key="frame" x="0.0" y="558" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start KorID Reder"/>
+                                <connections>
+                                    <segue destination="RNe-pn-5Lf" kind="show" id="xlb-7Z-zwX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MzQ-PW-2Lp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="FinCube KorID Reader" id="mqa-U5-RBQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pdf-yA-Dvw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292" y="-48"/>
+        </scene>
+        <!--Fin Cube Card Reader View Controller-->
+        <scene sceneID="i6m-OW-jXT">
+            <objects>
+                <viewController id="RNe-pn-5Lf" customClass="FinCubeCardReaderViewController" customModule="OCRSwift" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="smL-dX-eqx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="eob-TN-ecb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fFF-ka-nf5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="di7-16-rV9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3524" y="-48"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

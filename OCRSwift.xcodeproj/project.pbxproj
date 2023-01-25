@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16CB518E28E2807100CE9150 /* OcrCameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB518828E2807100CE9150 /* OcrCameraPreview.swift */; };
+		16CB518F28E2807100CE9150 /* OcrSdkDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB518928E2807100CE9150 /* OcrSdkDevice.swift */; };
+		16CB519028E2807100CE9150 /* OcrGuideLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB518A28E2807100CE9150 /* OcrGuideLayer.swift */; };
+		16CB519128E2807100CE9150 /* OcrCameraPreviewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB518B28E2807100CE9150 /* OcrCameraPreviewDelegate.swift */; };
+		16CB519228E2807100CE9150 /* OcrScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB518C28E2807100CE9150 /* OcrScanResult.swift */; };
+		16CB519328E2807100CE9150 /* OcrSdkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB518D28E2807100CE9150 /* OcrSdkView.swift */; };
+		214140872618304A001436C0 /* PassportResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214140862618304A001436C0 /* PassportResultViewController.swift */; };
+		2141408926185104001436C0 /* OcrViewController..swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141408826185103001436C0 /* OcrViewController..swift */; };
+		216A09B72601E56A005ACBD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A09B02601E56A005ACBD8 /* SceneDelegate.swift */; };
+		216A09B82601E56A005ACBD8 /* AlienBacksideResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A09B12601E56A005ACBD8 /* AlienBacksideResultViewController.swift */; };
+		216A09B92601E56A005ACBD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A09B22601E56A005ACBD8 /* ViewController.swift */; };
+		216A09BA2601E56A005ACBD8 /* KorIDResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A09B32601E56A005ACBD8 /* KorIDResultViewController.swift */; };
+		216A09BB2601E56A005ACBD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A09B42601E56A005ACBD8 /* AppDelegate.swift */; };
+		216A09BC2601E56A005ACBD8 /* AlienResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A09B52601E56A005ACBD8 /* AlienResultViewController.swift */; };
+		216A09BD2601E56A005ACBD8 /* CreditCardResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A09B62601E56A005ACBD8 /* CreditCardResultViewController.swift */; };
+		216A09C62601EF26005ACBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216A09C42601EF26005ACBD8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA1922D525BFA5020064F03B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16CB518828E2807100CE9150 /* OcrCameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OcrCameraPreview.swift; path = OcrSdk/OcrCameraPreview.swift; sourceTree = "<group>"; };
+		16CB518928E2807100CE9150 /* OcrSdkDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OcrSdkDevice.swift; path = OcrSdk/OcrSdkDevice.swift; sourceTree = "<group>"; };
+		16CB518A28E2807100CE9150 /* OcrGuideLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OcrGuideLayer.swift; path = OcrSdk/OcrGuideLayer.swift; sourceTree = "<group>"; };
+		16CB518B28E2807100CE9150 /* OcrCameraPreviewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OcrCameraPreviewDelegate.swift; path = OcrSdk/OcrCameraPreviewDelegate.swift; sourceTree = "<group>"; };
+		16CB518C28E2807100CE9150 /* OcrScanResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OcrScanResult.swift; path = OcrSdk/OcrScanResult.swift; sourceTree = "<group>"; };
+		16CB518D28E2807100CE9150 /* OcrSdkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OcrSdkView.swift; path = OcrSdk/OcrSdkView.swift; sourceTree = "<group>"; };
+		214140862618304A001436C0 /* PassportResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PassportResultViewController.swift; path = OCRSwiftApp/PassportResultViewController.swift; sourceTree = "<group>"; };
+		2141408826185103001436C0 /* OcrViewController..swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OcrViewController..swift; path = OCRSwiftApp/OcrViewController..swift; sourceTree = "<group>"; };
+		216A09B02601E56A005ACBD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = OCRSwiftApp/SceneDelegate.swift; sourceTree = "<group>"; };
+		216A09B12601E56A005ACBD8 /* AlienBacksideResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlienBacksideResultViewController.swift; path = OCRSwiftApp/AlienBacksideResultViewController.swift; sourceTree = "<group>"; };
+		216A09B22601E56A005ACBD8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = OCRSwiftApp/ViewController.swift; sourceTree = "<group>"; };
+		216A09B32601E56A005ACBD8 /* KorIDResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KorIDResultViewController.swift; path = OCRSwiftApp/KorIDResultViewController.swift; sourceTree = "<group>"; };
+		216A09B42601E56A005ACBD8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = OCRSwiftApp/AppDelegate.swift; sourceTree = "<group>"; };
+		216A09B52601E56A005ACBD8 /* AlienResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlienResultViewController.swift; path = OCRSwiftApp/AlienResultViewController.swift; sourceTree = "<group>"; };
+		216A09B62601E56A005ACBD8 /* CreditCardResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditCardResultViewController.swift; path = OCRSwiftApp/CreditCardResultViewController.swift; sourceTree = "<group>"; };
+		216A09C52601EF26005ACBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = OCRSwiftApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D792F2612431BAF400A7D743 /* OCRSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D792F25E2431BAF400A7D743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216A099F2601E51E005ACBD8 /* OcrSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				2141408826185103001436C0 /* OcrViewController..swift */,
+				216A09C42601EF26005ACBD8 /* Main.storyboard */,
+				216A09B42601E56A005ACBD8 /* AppDelegate.swift */,
+				216A09B12601E56A005ACBD8 /* AlienBacksideResultViewController.swift */,
+				216A09B52601E56A005ACBD8 /* AlienResultViewController.swift */,
+				216A09B62601E56A005ACBD8 /* CreditCardResultViewController.swift */,
+				216A09B32601E56A005ACBD8 /* KorIDResultViewController.swift */,
+				216A09B02601E56A005ACBD8 /* SceneDelegate.swift */,
+				216A09B22601E56A005ACBD8 /* ViewController.swift */,
+				214140862618304A001436C0 /* PassportResultViewController.swift */,
+			);
+			name = OcrSwiftApp;
+			sourceTree = "<group>";
+		};
+		216A09A02601E52B005ACBD8 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				216A09A12601E538005ACBD8 /* OcrSdk */,
+				216A099F2601E51E005ACBD8 /* OcrSwiftApp */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		216A09A12601E538005ACBD8 /* OcrSdk */ = {
+			isa = PBXGroup;
+			children = (
+				16CB518828E2807100CE9150 /* OcrCameraPreview.swift */,
+				16CB518B28E2807100CE9150 /* OcrCameraPreviewDelegate.swift */,
+				16CB518A28E2807100CE9150 /* OcrGuideLayer.swift */,
+				16CB518C28E2807100CE9150 /* OcrScanResult.swift */,
+				16CB518928E2807100CE9150 /* OcrSdkDevice.swift */,
+				16CB518D28E2807100CE9150 /* OcrSdkView.swift */,
+			);
+			name = OcrSdk;
+			sourceTree = "<group>";
+		};
+		D792F2582431BAF400A7D743 = {
+			isa = PBXGroup;
+			children = (
+				216A09A02601E52B005ACBD8 /* source */,
+				D792F2622431BAF400A7D743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D792F2622431BAF400A7D743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D792F2612431BAF400A7D743 /* OCRSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D792F2602431BAF400A7D743 /* OCRSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D792F2752431BAF500A7D743 /* Build configuration list for PBXNativeTarget "OCRSwift" */;
+			buildPhases = (
+				D792F25D2431BAF400A7D743 /* Sources */,
+				D792F25E2431BAF400A7D743 /* Frameworks */,
+				D792F25F2431BAF400A7D743 /* Resources */,
+				FA1922D525BFA5020064F03B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRSwift;
+			packageProductDependencies = (
+			);
+			productName = OCRSwift;
+			productReference = D792F2612431BAF400A7D743 /* OCRSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D792F2592431BAF400A7D743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					D792F2602431BAF400A7D743 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = D792F25C2431BAF400A7D743 /* Build configuration list for PBXProject "OCRSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D792F2582431BAF400A7D743;
+			packageReferences = (
+			);
+			productRefGroup = D792F2622431BAF400A7D743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D792F2602431BAF400A7D743 /* OCRSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D792F25F2431BAF400A7D743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216A09C62601EF26005ACBD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D792F25D2431BAF400A7D743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CB518E28E2807100CE9150 /* OcrCameraPreview.swift in Sources */,
+				16CB518F28E2807100CE9150 /* OcrSdkDevice.swift in Sources */,
+				16CB519028E2807100CE9150 /* OcrGuideLayer.swift in Sources */,
+				16CB519128E2807100CE9150 /* OcrCameraPreviewDelegate.swift in Sources */,
+				16CB519228E2807100CE9150 /* OcrScanResult.swift in Sources */,
+				16CB519328E2807100CE9150 /* OcrSdkView.swift in Sources */,
+				216A09BB2601E56A005ACBD8 /* AppDelegate.swift in Sources */,
+				216A09B92601E56A005ACBD8 /* ViewController.swift in Sources */,
+				2141408926185104001436C0 /* OcrViewController..swift in Sources */,
+				216A09BC2601E56A005ACBD8 /* AlienResultViewController.swift in Sources */,
+				216A09B82601E56A005ACBD8 /* AlienBacksideResultViewController.swift in Sources */,
+				216A09BD2601E56A005ACBD8 /* CreditCardResultViewController.swift in Sources */,
+				216A09BA2601E56A005ACBD8 /* KorIDResultViewController.swift in Sources */,
+				216A09B72601E56A005ACBD8 /* SceneDelegate.swift in Sources */,
+				214140872618304A001436C0 /* PassportResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		216A09C42601EF26005ACBD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216A09C52601EF26005ACBD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D792F2732431BAF500A7D743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D792F2742431BAF500A7D743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D792F2762431BAF500A7D743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WP6488PGSN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = OCRSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quram.mi.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		D792F2772431BAF500A7D743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WP6488PGSN;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Framework",
+				);
+				INFOPLIST_FILE = OCRSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quram.mi.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D792F25C2431BAF400A7D743 /* Build configuration list for PBXProject "OCRSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792F2732431BAF500A7D743 /* Debug */,
+				D792F2742431BAF500A7D743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D792F2752431BAF500A7D743 /* Build configuration list for PBXNativeTarget "OCRSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D792F2762431BAF500A7D743 /* Debug */,
+				D792F2772431BAF500A7D743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D792F2592431BAF400A7D743 /* Project object */;
+}
